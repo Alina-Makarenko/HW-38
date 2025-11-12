@@ -77,12 +77,11 @@ do {
 
 } while (true);
 if (numbers.length > 0) {
-    for (let i = 0; i < array.length; i += 1) {
+    for (let i = 0; i < numbers.length; i += 1) {
         total += numbers[i];
 
     }
-    console.log(`hhhh ${total}`);
+    console.log(`Загальна сума чисел дорівнює ${total}`);
     
 }
 
-// 7
